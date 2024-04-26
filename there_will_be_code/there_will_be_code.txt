@@ -1,0 +1,5 @@
+Code Endures: Despite advancements, code remains crucial as it embodies detailed specifications necessary for machine execution.
+Abstraction and Diversity: Higher abstraction and domain-specific languages may emerge, but they won't eliminate the need for code; instead, they refine its expression.
+Myth of Obsolescence: Idea that machines will understand vague human needs and generate perfect code is unrealistic; even humans struggle with vague requirements.
+Precision Matters: Well-defined requirements are as vital as code; they serve as executable tests, emphasizing the need for precision.
+Code as Language: Code is the language of requirements expression; advancements may create closer-to-need languages, but precision remains key.
