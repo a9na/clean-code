@@ -1,2 +1,4 @@
 # clean-code
-Reading the book by Robert C. Martin and taking notes
+
+"Quality is the result of a million selfless acts of care—not just of any
+great method that descends from the heavens."
