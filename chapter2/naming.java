@@ -60,4 +60,57 @@ private final String recordId = "102";
 /* ... */
 };
 
+//The length of a name should correspond to the size of its scope
 
+for (int j=0; j<34; j++) {
+s += (t[j]*4)/5;
+}
+
+//instead use :
+int realDaysPerIdealDay = 4;
+const int WORK_DAYS_PER_WEEK = 5;
+int sum = 0;
+for (int j=0; j < NUMBER_OF_TASKS; j++) {
+int realTaskDays = taskEstimate[j] * realDaysPerIdealDay;
+int realTaskWeeks = (realdays / WORK_DAYS_PER_WEEK);
+sum += realTaskWeeks;
+}
+
+/** The improvement of context also allows the algorithm to be made much cleaner by
+breaking it into many smaller functions. **/
+
+public class GuessStatisticsMessage {
+private String number;
+private String verb;
+private String pluralModifier;
+public String make(char candidate, int count) {
+createPluralDependentMessageParts(count);
+return String.format(
+"There %s %s %s%s",
+verb, number, candidate, pluralModifier );
+}
+private void createPluralDependentMessageParts(int count) {
+if (count == 0) {
+thereAreNoLetters();
+} else if (count == 1) {
+thereIsOneLetter();
+} else {
+thereAreManyLetters(count);
+}
+}
+private void thereAreManyLetters(int count) {
+number = Integer.toString(count);
+verb = "are";
+pluralModifier = "s";
+}
+private void thereIsOneLetter() {
+number = "1";
+verb = "is";
+pluralModifier = "";
+}
+private void thereAreNoLetters() {
+number = "no";
+verb = "are";
+pluralModifier = "s";
+}
+}
