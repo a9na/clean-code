@@ -43,3 +43,21 @@ accountData is indistinguishable from account, and theMessage is
 indistinguishable from message. Distinguish names in such a way that the reader
 knows what the differences offer.
 **/
+
+//pronounceable names
+
+Compare class DtaRcrd102 {
+private Date genymdhms;
+private Date modymdhms;
+private final String pszqint = "102";
+/* ... */
+};
+// instead use:
+class Customer {
+private Date generationTimestamp;
+private Date modificationTimestamp;;
+private final String recordId = "102";
+/* ... */
+};
+
+
