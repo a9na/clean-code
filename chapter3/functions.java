@@ -49,3 +49,8 @@ inheritance**/
 
 /**The smaller and more focused a function is, the easier it is to choose a
 descriptive name**/
+
+/**We want the code to read like a top-down narrative. We want every function to
+be followed by those at the next level of abstraction so that we can read the
+program, descending one level of abstraction at a time as we read down the list
+of functions.**/
