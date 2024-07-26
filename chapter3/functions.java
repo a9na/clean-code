@@ -58,4 +58,10 @@ of functions.
 “You know you are working on clean code when each routine turns out to be
 pretty much what you expected. ” Half the battle to achieving that principle is
 choosing good names for small functions that do one thing.
+
+Don’t be afraid to make a name long. A long descriptive name is better than a
+short enigmatic name. A long descriptive name is better than a long descriptive
+comment. Use a naming convention that allows multiple words to be easily read
+in the function names, and then make use of those multiple words to give the
+function a name that says what it does.
 **/
