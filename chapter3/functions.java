@@ -53,4 +53,9 @@ descriptive name**/
 /**We want the code to read like a top-down narrative. We want every function to
 be followed by those at the next level of abstraction so that we can read the
 program, descending one level of abstraction at a time as we read down the list
-of functions.**/
+of functions.
+
+“You know you are working on clean code when each routine turns out to be
+pretty much what you expected. ” Half the battle to achieving that principle is
+choosing good names for small functions that do one thing.
+**/
